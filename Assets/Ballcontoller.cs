@@ -16,10 +16,10 @@ public class Ballcontoller : MonoBehaviour
 
 
     [SerializeField]
-    private GameObject ballObject;
+    private GameObject ballObject = null;
 
     [SerializeField]
-    private GameObject cameraObject;
+    private GameObject cameraObject = null;
 
     struct Ball
     {
